@@ -51,12 +51,12 @@ $white:						#FFF;
 $grey:						#d9d9d9;
 
 
-$color-base:				;
-$color-sub:					;
-$color-tri:					;
+$color-base:				$black;
+$color-sub:					$black;
+$color-tri:					$black;
 
 $color-link:				$color-base;
-$color-hover:				;
+$color-hover:				$color-link;
 
 $color-text:				#666;
 $color-text-header:			$color-base;

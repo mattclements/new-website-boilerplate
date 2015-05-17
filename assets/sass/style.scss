@@ -20,8 +20,8 @@
 //Settings Imported - These are unique for each project (fonts, colours, baseline settings etc)
 @import "_settings";
 
-//Mixins loaded first to ensure they work (using Sass Globbing)
-@import "mixins/*";
+//Mixins loaded first to ensure they work
+@import "mixins/mixins";
 
 
 //Grid (GridsetApp)
@@ -31,10 +31,12 @@
 @import "base/_framework";
 @import "base/_helpers";
 
+//Import Web Fonts
+@import "modules/_fonts";
+
 
 //SLECT MODULES AS REQUIRED
 //Typography, Links, Colour Styling , Tables, Forms, Boxes
-
 @import "modules/_typography";
 @import "modules/_links";
 @import "modules/_colours";
@@ -54,14 +56,8 @@
 // @import "unique/_animations";
 
 
-
-
-
-
-
-// //Layout Styles (using Sass Globbing)
-@import "layouts/*";
-
+// //Layout Styles
+@import "layouts/layouts";
 
 
 
@@ -69,10 +65,8 @@
 // TODO: Perhaps import this at the end using Google CSS import? or inline style in header? See what's best.
 // @import "vendors/_google-fonts";
 
-
 //Magnificant Lightbox Gallery (Responsive)
 // @import "vendors/_magnificant-popup";
-
 
 //Icon Styles
 // @import "vendors/_icons";
@@ -85,4 +79,3 @@
 
 //DEBUG MODE
 @import "base/_debug";
-

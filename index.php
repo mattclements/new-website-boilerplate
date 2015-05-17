@@ -223,33 +223,4 @@
 
 
 
-<footer role="contentinfo" clsss="footer">
-	<div class="container">
-		<p>Watfields Limited are registered at Companies House England and Wales<br>
-		Company Registration Number. 08138894</p>
-
-		<p>Registered Address.13 Seymore Road, Aston, Sheffield, South Yorkshire, S26 2DG</p>
-
-		<p>All Content &copy; Watfields Limited | <a href="/terms-of-use/">Cookies &amp; Privacy</a><br>
-		Website &copy; <a href="http://www.amasci.co.uk" target="_blank" title="visit Amasci Creative Limited - Web Solutons, Graphic Design and much more."  class="textFooterAmasci">Amasci Creative Limited, website design Milton Keynes</a> <?php auto_copyright('2015'); ?></p>
-		</p>
-	</div>
-</footer>
-
-
-<!-- JAVASCRIPTS
-================================================== -->
-
-<!-- TODO: Replace JQuery with CDN and Local Fallback. Update Version number as required -->
-<script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/assets/js/jquery-1.11.2.min..js"><\/script>')</script>-->
-
-<script type="text/javascript" src="/assets/js/production.<?php echo filectime($_SERVER['DOCUMENT_ROOT'].'/assets/js/production.min.js'); ?>.min.js"></script>
-
-<!-- TODO: Google Analytics Code to be created from account -->
-<!--GOOGLE ANALYTCIS-->
-<!--END GOOGLE ANALYTCIS-->
-
-</body>
-</html>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
